@@ -1,9 +1,4 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 html, body{
     font-size: 100%;
 	font-family: 'Prompt', sans-serif;
@@ -34,7 +29,7 @@ input[type="submit"],input[type="reset"],a{
 }
 /*-- banner --*/
 .banner{
-	background:url(../images/banner.jpg) no-repeat 0px 0px;
+	background:url(../images/banner2.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -43,7 +38,7 @@ input[type="submit"],input[type="reset"],a{
 	min-height:770px;
 }
 .banner1{
-	background:url(../images/banner.jpg) no-repeat 0px -140px;
+	background:url(../images/banner2.jpg) no-repeat 0px -140px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -248,7 +243,7 @@ nav.navbar.navbar-default {
     font-family: 'Prompt', sans-serif;
     font-weight: bold;
     line-height: 1.7em;
-    background: url(../images/2.png) no-repeat center;
+    background: url(../images/22.png) no-repeat center;
 }
 .agile_banner_info_pos{
 	position: absolute;
@@ -2269,7 +2264,7 @@ ul.agileinfo_phone_mail{
 	}
 	.agile_banner_info h3 {
 		font-size: 10em;
-		background: url(../images/2.png) no-repeat center;
+		background: url(../images/22.png) no-repeat center;
 		background-size: 30%;
 	}
 	.agile_banner_info_pos {
@@ -2447,7 +2442,7 @@ ul.agileinfo_phone_mail{
 	}
 	.agile_banner_info h3 {
 		font-size: 8em;
-		background: url(../images/2.png) no-repeat center;
+		background: url(../images/22.png) no-repeat center;
 		background-size: 33%;
 	}
 	.agile_banner_info_pos h2 {
@@ -3102,7 +3097,7 @@ ul.agileinfo_phone_mail{
 @media (max-width: 414px){
 	.agile_banner_info h3 {
 		font-size: 5em;
-		background: url(../images/2.png) no-repeat center;
+		background: url(../images/22.png) no-repeat center;
 		background-size: 40%;
 	}
 	.agile_banner_info_pos h2 {
