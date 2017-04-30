@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Welcome to Sound Elephant</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
+
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<link href='css/simplelightbox.min.css' rel='stylesheet' type='text/css'>
+
 <link href="css/font-awesome.css" rel="stylesheet"> 
     <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
@@ -23,7 +26,11 @@
 
     <script src="js/respond.min.js"></script>
 
-    
+<style type="text/css">
+	body {
+		background-color: #f0f0f0;
+	}
+</style>    
 
 </head>
 <body>
@@ -51,7 +58,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="Login">Customer login</h4>
+                        <h4 class="modal-title" id="Login">Login</h4>
                     </div>
                     <div class="modal-body">
                         <form action="customer-orders.html" method="post">
@@ -69,7 +76,7 @@
                         </form>
 
                         <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
+                        <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It's easy and done in 1&nbsp;minute! This will allow you to access the items available in our store and give you the chance to earn money by becoming a '<strong>Seller</strong>'! </p>
 
                     </div>
                 </div>
@@ -77,13 +84,12 @@
         </div>
 
     </div>
-<div class="banner">
+<div class="banner" style="border-bottom-style: solid; border-bottom-color: rgb(230, 230, 230); border-bottom-width: 1px; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);">
 		<div class="container">
 			<nav class="navbar navbar-default" style="margin-right: 50px; border: none;">
 				<div class="navbar-header navbar-left">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
+						<span class="sr-only">Toggle navigation</spanrgb(230, 230, 230); box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
@@ -94,16 +100,16 @@
 					<nav class="menu menu--iris">
 						<ul class="nav navbar-nav menu__list" style="background-color: rgba(0,0,0,0.5);">
 							<li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="music.html" class="menu__link">Users</a></li>
+							<li class="menu__item"><a href="Users.html" class="menu__link">Users</a></li>
 							<li class="menu__item"><a href="gallery.html" class="menu__link">Blog</a></li>
 							<li class="dropdown menu__item">
-								<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Music <b class="caret"></b></a>
+								<a href="#" class="dropdown-toggle menu__link" data-toggle="dropdown">Music Shop<b class="caret"></b></a>
 								<ul class="dropdown-menu agile_short_dropdown">
 									<li><a href="Equipment.html">Equipment</a></li>
 									<li><a href="Services.html">Services</a></li>
 								</ul>
 							</li>
-							<li class="menu__item"><a href="mail.html" class="menu__link">Mail Us</a></li>
+							<li class="menu__item"><a href="about.html" class="menu__link">About</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -116,6 +122,58 @@
 			</div>
 		</div>
 	</div>
+	            <div id="advantages" style="margin-top: 25px;">
+
+                <div class="container">
+                    <div class="same-height-row">
+                        <div class="col-sm-4">
+                            <div class="box same-height clickabl" href="register.html">
+                                <div class="icon"><i class="fa fa-users"></i>
+                                </div>
+
+                                <h3><a href="register.html" style="color: #333">Community</a></h3>
+                                <p>Find like-minded people that love music almost as much as You! Get feedback, seek advice, set up Collaborations & more! Check out the Blog<br> <br> <br>
+
+                               
+                                <a href="register.html" class="btn btn-primary btn-sm" data-animate-hover="shake" style="background-color: #333 border-color: #333"><strong>Register Now!</strong></a>
+                          
+                                
+                                
+
+                                </p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="box same-height clickabl">
+                                <div class="icon"><i class="fa fa-tags"></i>
+                                </div>
+
+                                <h3><a href="register.html" style="color: #333">Low Prices</a></h3>
+                                <p>Pull out your Wishlist! Find the equipment you need to progress your music career at prices you can actually afford. Check out Equipment in the Music Shop<br> <br>
+                                <a href="register.html" class="btn btn-primary btn-sm" data-animate-hover="shake" style="background-color: #333 border: #333;"><strong>Register Now!</strong></a>  </p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <div class="box same-height clickabl">
+                                <div class="icon"><i class="fa fa-dollar"></i>
+                                </div>
+
+                                <h3><a href="register.html" style="color: #333">Become a Seller</a></h3>
+                                <p>Got some Equipment you no longer use? Take a picture, set a price, & post in our shop! We take 5% of each transaction, You keep the rest. <br> <br> <br>
+                                <a href="register.html" class="btn btn-primary btn-sm" data-animate-hover="shake" style="background-color: #333 border-color: #333;"><strong>Register Now!</strong></a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+
+                </div>
+                <!-- /.container -->
+
+            </div>
+            <!-- /#advantages -->
 		<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -177,5 +235,17 @@
 								
 			});
 	</script>
+        <div id="copyright">
+            <div class="container">
+                <div class="col-md-6">
+                    <p class="pull-left" style="font-size: 11px;">© 2017 Sound Elephant.</p>
+
+                </div>
+                <div class="col-md-6">
+                    <p class="pull-right" style="font-size: 11px;"> Created by Sheriff Ahmed 
+                    </p>
+                </div>
+            </div>
+        </div>
 </body>
 </html>

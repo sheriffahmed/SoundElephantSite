@@ -1258,11 +1258,11 @@ h1 {
   color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #777777;
+  color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
+  color: #ff0034;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -1293,8 +1293,8 @@ h1 {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #4fbfa8;
-  color: #555555;
+  background-color: #fdfdfd;
+  color: #ff0000;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -1386,17 +1386,17 @@ hr {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #4fbfa8;
-  border-color: #41b39c;
+  background-color: #333;
+  border-color: #000;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #ffffff;
-  background-color: #3da892;
-  border-color: #318675;
+  color: #000;
+  background-color: #fff;
+  border-color: #222222;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -1418,8 +1418,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #4fbfa8;
-  border-color: #41b39c;
+  background-color: #333;
+  border-color: #000;
 }
 .btn-primary .badge {
   color: #4fbfa8;

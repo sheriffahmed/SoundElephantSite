@@ -110,7 +110,7 @@ nav.navbar.navbar-default {
 }
 .navbar-brand:after{
 	content: '';
-    background: url(../images/1.png) no-repeat 0px 0px;
+    background: url() no-repeat 0px 0px;
     width: 40px;
     height: 94px;
     position: absolute;
@@ -2417,7 +2417,7 @@ ul.agileinfo_phone_mail{
 		font-size: .9em;
 	}
 	.navbar-brand:after {
-		background: url(../images/1.png) no-repeat 0px 0px;
+		background: url() no-repeat 0px 0px;
 		background-size: cover;
 		width: 25px;
 		height: 60px;
